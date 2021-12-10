@@ -4,4 +4,10 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  purge: [
+    './storage/framework/views/*.php',
+    './resources/**/*.blade.php',
+    './resources/**/*.js',
+    './resources/**/*.vue',
+],
 }

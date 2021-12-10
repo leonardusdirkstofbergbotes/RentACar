@@ -1,6 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
+
+<div class="bg-blue-400 p-20">
+    Testing 123
+</div>
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
