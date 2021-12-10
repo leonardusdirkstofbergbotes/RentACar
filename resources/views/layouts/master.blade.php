@@ -32,7 +32,11 @@
     </head>
     <body class="antialiased" id="app">
 
-        @yield('content')
+        @include('layouts.navbar')
+
+        <main class="p-4 md:p-6">
+            @yield('content')
+        </main>
         @livewireStyles
     </body>
 </html>
