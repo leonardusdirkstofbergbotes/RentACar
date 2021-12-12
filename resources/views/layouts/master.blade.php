@@ -32,7 +32,7 @@
     </head>
     <body class="antialiased" id="app">
 
-        @include('layouts.navbar')
+        <div class="mb-4">@include('layouts.navbar')</div>
 
         <main class="p-4 md:p-6">
             @yield('content')
